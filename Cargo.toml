@@ -1,0 +1,21 @@
+[package]
+name = "sidemash-sdk"
+version = "0.1.0"
+authors = ["Sidemash Cloud <opensource@sidemash.com>"]
+edition = "2018"
+license = "Apache-2.0"
+description = "Official SDK for Sidemash Cloud in Rust"
+homepage    = "https://developers.sidemash.com/docs/v1.0/sdk/rust"
+repository  = "https://github.com/sidemash/sdk-rust"
+
+[lib]
+name = "sidemash"
+
+[dependencies]
+reqwest = { version = "0.10", features = ["json"] }
+tokio = { version = "0.2", features = ["full"] }
+hmac = "0.9.0"
+base64 = "0.12.3"
+sha2 = "0.9.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
