@@ -1,6 +1,6 @@
 [package]
 name = "sidemash-sdk"
-version = "0.1.0"
+version = "0.1.0-alpha1"
 authors = ["Sidemash Cloud <opensource@sidemash.com>"]
 edition = "2018"
 license = "Apache-2.0"
